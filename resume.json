@@ -1,0 +1,138 @@
+
+{
+  "data_lang": "zh-CN",
+  "ga_id": "UA-63818301-2",
+  "resume_title": "郭琪琛 - 个人简历",
+  "name": "郭琪琛",
+  "repo": "",
+  "job_description": ["前端工程师"],
+  "contact": {
+    "email": "guoqichen0621@gmail.com",
+    "wechat": {
+      "id": "guoqichen_0526",
+      "qrcode": "static/wechat.png"
+    },
+    "sinaweibo": {
+      "id": "guoqichen_0526",
+      "url": "http://weibo.com/3019968415"
+    },
+    "github": {
+      "id": "GuoQichen"
+    },
+    "blog": {
+      "url": "http://www.jianshu.com/users/458be23bf41a/"
+    }
+  },
+  "links": [{
+    "type": "pdf",
+    "url": "static/guoqichen.pdf"
+  }],
+  "education": [{
+    "type": "undergraduate",
+    "name": "浙江大学城市学院",
+    "major": "电子科学与技术",
+    "start": "2012",
+    "end": "2016",
+    "honor": []
+  }],
+  "language": [{
+    "type": "english",
+    "certificate": [],
+    "description": [
+      "日常使用devdoc查询API",
+      "能通过Stack Overflow解决问题",
+      "能阅读W3C Specification"
+    ]
+  }],
+ "experience": [{
+    "type": "project",
+    "techtype": "frontend",
+    "project_type": "personal",
+    "name": "MusicPlayer",
+    "source": "https://github.com/GuoQichen/MusicPlayer",
+    "demo": "http://guoqichen.applinzi.com/",
+    "description": [
+      "一个在线音乐电台",
+      "支持频道更换, 音乐收藏, 上一曲保留, 同步歌词, 歌词拖拽, 播放模式更换等功能",
+      "使用`JSONP`从百度FM的API获取随机音乐信息. 基于面向对象, 使用jQuery进行开发. 通过`HTML5 Audio`提供的API控制音乐"
+    ],
+    "stack": ["AJAX"],
+    "compatibility": "IE9+"
+  }, {
+    "type": "project",
+    "techtype": "frontend",
+    "project_type": "personal",
+    "name": "jQueryPlugin",
+    "source": "https://github.com/GuoQichen/jQueryPlugin",
+    "description": [
+      "一个`jQuery`插件集合, 包括backTop, lazyLoad, slide, stickUp, waterFall, dialog",
+      "基于面向对象开发, 实现代码的模块化和保证一定的扩展和封装"
+    ],
+    "stack": ["jQuery"],
+    "compatibility": "IE9+"
+  }, {
+    "type": "project",
+    "techtype": "frontend",
+    "project_type": "personal",
+    "name": "仿蘑菇街首页",
+    "source": "https://github.com/GuoQichen/pagePractice/tree/master/MoGuJie",
+    "demo": "https://guoqichen.github.io/pagePractice/MoGuJie/",
+    "description": [
+      "仿蘑菇街首页, 实现蘑菇街首页的动画和交互效果",
+      "使用`HTML`/`CSS`完成复杂的布局, 使用`CSS3`实现页面动画效果, 使用`jQuery`完成页面交互"
+    ],
+    "stack": ["CSS3", "jQuery"],
+    "compatibility": "IE10+"
+  }],
+  "skills": [{
+    "type": "frontend",
+    "item": [{
+      "summary": "`HTML` / `CSS`",
+      "description": [
+        "能够编写语义化的`HTML` / `CSS`, 实现结构清晰的页面",
+        "能实现复杂的布局和动画",
+        "熟悉已标准化的 `HTML5` / `CSS3` 新特性"
+      ]
+    }, {
+      "summary": "`JavaScript`",
+      "description": [
+        "熟悉`ECMAScript5`, 熟悉原生`DOM`的使用",
+        "了解`ECMAScript6`特性"
+      ]
+    }, {
+      "summary": "前端工程化",
+      "description": [
+        "熟练使用`jQuery`, 能编写`jQuery`插件",
+        "熟悉`RequireJS`, 了解JS模块化解决方案",
+        "熟悉 `Less` 等CSS预处理工具",
+        "熟练使用`Git`版本管理工具",
+        "熟悉`Gulp`前端自动化工具"
+      ]
+    }]
+  }, {
+    "type": "backend",
+    "item": [{
+      "summary": "`Node.js`",
+      "description": [
+        "能够搭建`Web`服务Mock后端数据`",
+        "了解异步 I/O 及事件驱动的模型",
+        "了解`MVC`架构模式"
+      ]
+    }, {
+      "summary": "HTTP",
+      "description": [
+        "理解`HTTP`, `TCP`/`IP`等协议",
+        "了解HTTP工作原理",
+        "能读懂HTTP请求报文和响应报文"
+      ]
+    }]
+  }, {
+    "type": "miscellaneous",
+    "item": [
+      "熟悉常用的`Linux`命令与配置",
+      "具备基本`Web`安全知识(`XSS`,`CSRF`)",
+      "日常使用`MarkDown`写博客",
+      "日常使用 `Git` 与 `Sublime Text` / `ATOM` 进行开发"
+    ]
+  }]
+}
